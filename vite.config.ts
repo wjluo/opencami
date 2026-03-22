@@ -12,7 +12,7 @@ const config = defineConfig({
   server: {
     host: '0.0.0.0',
     port: 3003,
-    allowedHosts: ['YOUR_OPENCLAW_SERVER.ts.net', 'YOUR_OPENCAMI_SERVER.ts.net'],
+    allowedHosts: ['your-openclaw-server.ts.net', 'YOUR_OPENCAMI_SERVER.ts.net'],
   },
   resolve: {
     alias: {
