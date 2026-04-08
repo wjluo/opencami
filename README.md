@@ -2,6 +2,8 @@
 
 A beautiful web client for [OpenClaw](https://github.com/openclaw/openclaw).
 
+Latest release: **v2.1.0**
+
 [![npm](https://img.shields.io/npm/v/opencami)](https://www.npmjs.com/package/opencami)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
@@ -178,7 +180,8 @@ docker run -p 3000:3000 opencami
 
 ### 🧠 Smart Features
 - 🏷️ **Smart titles** — LLM-generated session titles
-- 💡 **Smart follow-ups** — contextual suggestions after each response
+- ✨ **AI-powered follow-up suggestions** — 3 contextual follow-up questions after each response, with a Settings toggle
+- 🤖 **LLM Features Model selector** — choose which agent handles AI titles and follow-up suggestions
 - 🧠 **Thinking level toggle** — reasoning depth (off/low/medium/high) per message
 - 🔎 **Search sources badge** — see which search engines were used
 - 📊 **Context window meter** — visual token usage indicator
