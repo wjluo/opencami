@@ -424,48 +424,49 @@ Control AI reasoning depth per message.
 AI-generated titles that describe your conversations.
 
 **How it works:**
-1. After first exchange, LLM analyzes conversation
-2. Generates concise, descriptive title
-3. Replaces generic "Feb 5 - hello..." titles
+1. After the first exchange, an LLM analyzes the conversation
+2. It generates a concise, descriptive title
+3. The generated title replaces generic session names automatically
 
-**Provider cascade:**
-1. gpt-4.1-nano (fast, cheap)
-2. gpt-4o-mini
-3. gpt-3.5-turbo
-
-**Requirements:** OpenAI API key (or compatible provider)
+**Features:**
+- Automatic title generation after chat starts
+- Better session organization in the sidebar
+- Works alongside the LLM Features Model selector
 
 **Usage:** Enable in Settings → LLM Features → Smart Titles
 
-### 💡 Smart Follow-ups
+### 💡 AI Follow-up Suggestions
 
-Context-aware suggestions for what to ask next.
+Get 3 AI-generated suggestions for what to ask next after each assistant response.
 
 **How it works:**
-1. Heuristic suggestions appear immediately
-2. LLM analyzes context in background
-3. Better suggestions replace heuristics
-4. One click to send any suggestion
+1. After a response finishes streaming, OpenCami analyzes the conversation
+2. It generates 3 contextual follow-up questions
+3. Suggestions appear below the message
+4. One click sends any suggestion instantly
 
 **Features:**
-- Instant heuristic fallback
-- Seamless transition to AI suggestions
-- Multiple suggestions offered
-- Contextually relevant
+- 3 contextual follow-up questions per response
+- Toggleable in Settings
+- Suggestions stay aligned with the conversation language
+- Fast, one-click continuation of the chat
 
 **Usage:** Enable in Settings → LLM Features → Smart Follow-ups
 
-### 🔌 Multi-Provider LLM
+### 🤖 LLM Features Model Selector
 
-Smart features work with multiple providers.
+Choose which agent handles AI-powered titles and follow-up suggestions.
 
-**Supported providers:**
-- **OpenAI** — Direct API
-- **OpenRouter** — Multiple models
-- **Ollama** — Local models
-- **Custom** — Any OpenAI-compatible endpoint
+**What it controls:**
+- Smart session title generation
+- AI follow-up suggestion generation
 
-**Configuration:** Settings → LLM Features → Provider
+**Features:**
+- Pick the model/agent used for LLM-powered UI features
+- Friendly model names in Settings
+- Shared configuration for titles and follow-ups
+
+**Configuration:** Settings → LLM Features → Model
 
 ---
 
